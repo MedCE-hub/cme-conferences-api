@@ -91,6 +91,8 @@ Claude Desktop, Claude Code or any MCP client (Node 18+):
 
 Claude Code: `claude mcp add medcehub -- npx -y github:MedCE-hub/cme-conferences-api`
 
+Docker: `docker run -i --rm ghcr.io/medce-hub/cme-conferences-api` (the same server as an image; listed in the official MCP Registry as `io.github.MedCE-hub/cme-conferences-api`)
+
 Example questions: "Which cardiology CME conferences are in Florida in spring 2027?", "Nurse practitioner conferences 2027 with pharmacology hours", "CME cruises next year", "How many CE hours does a Texas RN need and which topics are mandatory?"
 
 ## Sources and accuracy
