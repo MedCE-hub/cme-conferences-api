@@ -1,0 +1,20 @@
+{
+  "name": "medcehub-cme-conferences-mcp",
+  "version": "1.0.0",
+  "description": "MCP server and free JSON:API for US CME conferences 2026 and 2027 and CE / CME requirements by state (MedCE Hub).",
+  "type": "module",
+  "bin": { "medcehub-cme-conferences-mcp": "src/server.js" },
+  "main": "src/server.js",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node src/server.js", "test": "node test/smoke.mjs" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "keywords": ["mcp", "model-context-protocol", "cme", "cme-conferences", "medical-conferences", "continuing-medical-education", "nurse-practitioner", "nursing-ce", "ce-requirements", "json-api", "openapi"],
+  "homepage": "https://medcehub.github.io/cme-conferences-api/",
+  "repository": { "type": "git", "url": "git+https://github.com/medcehub/cme-conferences-api.git" },
+  "license": "MIT",
+  "author": "MedCE Hub (https://medcehub.com)"
+}

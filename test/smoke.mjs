@@ -1,0 +1,25 @@
+// Smoke test: start the MCP server over stdio and call every tool once.
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
+const t = new StdioClientTransport({ command: "node", args: ["src/server.js"], env: { ...process.env } });
+const c = new Client({ name: "smoke", version: "1" });
+await c.connect(t);
+const tools = (await c.listTools()).tools.map((x) => x.name);
+console.log("tools", tools.join(", "));
+const call = async (name, args) => JSON.parse((await c.callTool({ name, arguments: args })).content[0].text);
+const s = await call("search_conferences", { specialty: "cardiology", limit: 3 });
+console.log("cardiology", s.total, s.results.map((r) => r.id).join(" "));
+const np = await call("search_conferences", { profession: "nurse-practitioners", from: "2027-01-01", to: "2027-12-31", limit: 2 });
+console.log("np 2027", np.total);
+const cr = await call("search_conferences", { cruise: true, limit: 2 });
+console.log("cruises", cr.total);
+const one = await call("get_conference", { id: s.results[0].id });
+console.log("one", one.title, one.medcehub_url);
+const r = await call("get_ce_requirements", { profession: "nurses", state: "TX" });
+console.log("TX nurses", r.board_name, r.rules.length);
+const bad = await call("get_ce_requirements", { profession: "nurses", state: "ZZ" });
+console.log("missing", bad.error ? "ok" : "FAIL");
+const ref = await call("list_reference", { kind: "professions" });
+console.log("professions", ref.length);
+await c.close();
+if (!s.total || !one.title || !r.rules.length || !bad.error) process.exit(1);
