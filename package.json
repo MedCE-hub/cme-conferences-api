@@ -13,8 +13,8 @@
     "zod": "4.6.7"
   },
   "keywords": ["mcp", "model-context-protocol", "cme", "cme-conferences", "medical-conferences", "continuing-medical-education", "nurse-practitioner", "nursing-ce", "ce-requirements", "json-api", "openapi"],
-  "homepage": "https://medcehub.github.io/cme-conferences-api/",
-  "repository": { "type": "git", "url": "git+https://github.com/medcehub/cme-conferences-api.git" },
+  "homepage": "https://medce-hub.github.io/cme-conferences-api/",
+  "repository": { "type": "git", "url": "git+https://github.com/MedCE-hub/cme-conferences-api.git" },
   "license": "MIT",
   "author": "MedCE Hub (https://medcehub.com)"
 }

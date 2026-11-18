@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CME Conferences API (Swagger) | MedCE Hub</title>
 <meta name="description" content="Free JSON:API for {{conferences}} US CME conferences 2026 and 2027 and CE / CME requirements by state. OpenAPI (Swagger) docs and an MCP server for AI assistants.">
-<link rel="canonical" href="https://medcehub.github.io/cme-conferences-api/">
+<link rel="canonical" href="https://medce-hub.github.io/cme-conferences-api/">
 <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css">
 <style>
   body { margin: 0; background: #fafafa; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2933; }
@@ -18,7 +18,7 @@
 <body>
 <header>
   <h1>CME Conferences API</h1>
-  <p>Free, read-only JSON:API with {{conferences}} US CME conferences and CE meetings ({{first_start}} to {{last_start}}) and {{requirements}} CE / CME requirement records for {{requirement_states}} US jurisdictions. Data from <a href="https://medcehub.com">MedCE Hub</a>, CC BY 4.0. Source code and the MCP server: <a href="https://github.com/medcehub/cme-conferences-api">GitHub</a>.</p>
+  <p>Free, read-only JSON:API with {{conferences}} US CME conferences and CE meetings ({{first_start}} to {{last_start}}) and {{requirements}} CE / CME requirement records for {{requirement_states}} US jurisdictions. Data from <a href="https://medcehub.com">MedCE Hub</a>, CC BY 4.0. Source code and the MCP server: <a href="https://github.com/MedCE-hub/cme-conferences-api">GitHub</a>.</p>
 </header>
 <div id="swagger-ui"></div>
 <script src="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-bundle.js" crossorigin></script>

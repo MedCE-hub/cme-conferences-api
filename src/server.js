@@ -5,7 +5,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const BASE = (process.env.MEDCEHUB_API_BASE || "https://medcehub.github.io/cme-conferences-api/v1").replace(/\/$/, "");
+const BASE = (process.env.MEDCEHUB_API_BASE || "https://medce-hub.github.io/cme-conferences-api/v1").replace(/\/$/, "");
 const TTL = 6 * 3600 * 1000;
 const cache = new Map();
 
