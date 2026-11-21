@@ -5,7 +5,7 @@ Free, open data on **541 US CME conferences** (medical conferences 2026-11-17 to
 * **API docs (Swagger / OpenAPI):** https://medce-hub.github.io/cme-conferences-api/
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
 * **MCP server:** lets Claude, ChatGPT and other AI assistants search CME conferences and look up state CE requirements
-* **Updated:** regularly. Last build 2026-11-20
+* **Updated:** regularly. Last build 2026-11-21
 * **License:** data CC BY 4.0 (credit "MedCE Hub" with a link), code MIT
 
 ## What is inside
