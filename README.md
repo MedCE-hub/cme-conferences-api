@@ -6,7 +6,7 @@ Free, open data on **553 US CME conferences** (medical conferences 2026-11-19 to
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
 * **MCP server:** lets Claude, ChatGPT and other AI assistants search CME conferences and look up state CE requirements
 * **Updated:** regularly. Last build 2026-11-22
-* **License:** data CC BY 4.0 (credit "MedCE Hub" with a link), code MIT
+* **License:** data CC BY 4.0 (credit "MedCE Hub" with a link, see [LICENSE-DATA.md](LICENSE-DATA.md)), code MIT ([LICENSE](LICENSE))
 
 ## What is inside
 
@@ -14,7 +14,7 @@ Free, open data on **553 US CME conferences** (medical conferences 2026-11-19 to
 |---|---|---|
 | CME conferences and CE meetings | 553 | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
-| CE / CME requirements (state × profession) | 685 records, 52 US jurisdictions, 14 professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
+| CE / CME requirements (state × profession) | 685 records (803 rules by license type), 52 US jurisdictions, 14 professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
 | Professions | 14 | [`/v1/professions.json`](https://medce-hub.github.io/cme-conferences-api/v1/professions.json) |
 | Specialties | 68 | [`/v1/specialties.json`](https://medce-hub.github.io/cme-conferences-api/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |
