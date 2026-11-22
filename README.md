@@ -1,18 +1,18 @@
 # CME Conferences API and MCP server
 
-Free, open data on **547 US CME conferences** (medical conferences 2026-11-17 to 2030-10-25) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
+Free, open data on **546 US CME conferences** (medical conferences 2026-11-19 to 2030-10-25) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
 
 * **API docs (Swagger / OpenAPI):** https://medce-hub.github.io/cme-conferences-api/
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
 * **MCP server:** lets Claude, ChatGPT and other AI assistants search CME conferences and look up state CE requirements
-* **Updated:** regularly. Last build 2026-11-21
+* **Updated:** regularly. Last build 2026-11-22
 * **License:** data CC BY 4.0 (credit "MedCE Hub" with a link), code MIT
 
 ## What is inside
 
 | Data | Count | Endpoint |
 |---|---|---|
-| CME conferences and CE meetings | 547 | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
+| CME conferences and CE meetings | 546 | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
 | CE / CME requirements (state × profession) | 634 records, 52 US jurisdictions, 13 professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
 | Professions | 13 | [`/v1/professions.json`](https://medce-hub.github.io/cme-conferences-api/v1/professions.json) |
@@ -37,28 +37,28 @@ A conference record (shortened):
 ```json
 {
   "type": "conferences",
-  "id": "veith-2026",
+  "id": "gnydm-2026",
   "attributes": {
-    "title": "VEITHsymposium 2026",
-    "start_date": "2026-11-17",
-    "end_date": "2026-11-21",
+    "title": "Greater New York Dental Meeting 2026",
+    "start_date": "2026-11-27",
+    "end_date": "2026-12-01",
     "city": "New York",
     "state": "NY",
     "format": "in_person",
     "professions": [
-      "physicians"
+      "dental-hygienists",
+      "dentists"
     ],
     "specialties": [
-      "interventional-cardiology",
-      "vascular-surgery",
-      "cardiology"
+      "dental-hygiene",
+      "general-dentistry"
     ],
-    "credits_text": "46.25 AMA PRA Cat 1 · 46.25 ANCC CH",
-    "official_url": "https://veithsymposium.org/general_info.php",
-    "medcehub_url": "https://medcehub.com/events/veith-2026"
+    "credits_text": "ADA CERP · AGD PACE",
+    "official_url": "https://www.gnydm.com/educationce/education-information/",
+    "medcehub_url": "https://medcehub.com/events/gnydm-2026"
   },
   "links": {
-    "self": "https://medce-hub.github.io/cme-conferences-api/v1/conferences/veith-2026.json"
+    "self": "https://medce-hub.github.io/cme-conferences-api/v1/conferences/gnydm-2026.json"
   }
 }
 ```
