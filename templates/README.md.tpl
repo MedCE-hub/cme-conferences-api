@@ -14,7 +14,7 @@ Free, open data on **{{conferences}} US CME conferences** (medical conferences {
 |---|---|---|
 | CME conferences and CE meetings | {{conferences}} | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
-| CE / CME requirements (state × profession) | {{requirements}} records, {{requirement_states}} US jurisdictions, {{requirement_professions}} professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
+| CE / CME requirements (state × profession) | {{requirements}} records ({{requirement_rules}} rules by license type), {{requirement_states}} US jurisdictions, {{requirement_professions}} professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
 | Professions | {{professions}} | [`/v1/professions.json`](https://medce-hub.github.io/cme-conferences-api/v1/professions.json) |
 | Specialties | {{specialties}} | [`/v1/specialties.json`](https://medce-hub.github.io/cme-conferences-api/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |

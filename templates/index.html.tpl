@@ -18,7 +18,7 @@
 <body>
 <header>
   <h1>CME Conferences API</h1>
-  <p>Free, read-only JSON:API with {{conferences}} US CME conferences and CE meetings ({{first_start}} to {{last_start}}) and {{requirements}} CE / CME requirement records for {{requirement_states}} US jurisdictions. Data from <a href="https://medcehub.com">MedCE Hub</a>, CC BY 4.0. Source code and the MCP server: <a href="https://github.com/MedCE-hub/cme-conferences-api">GitHub</a>.</p>
+  <p>Free, read-only JSON:API with {{conferences}} US CME conferences and CE meetings ({{first_start}} to {{last_start}}) and {{requirements}} CE / CME requirement records ({{requirement_rules}} rules by license type) for {{requirement_states}} US jurisdictions. Data from <a href="https://medcehub.com">MedCE Hub</a>, CC BY 4.0. Source code and the MCP server: <a href="https://github.com/MedCE-hub/cme-conferences-api">GitHub</a>.</p>
 </header>
 <div id="swagger-ui"></div>
 <script src="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-bundle.js" crossorigin></script>
