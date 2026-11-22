@@ -6,7 +6,7 @@ Free, open data on **{{conferences}} US CME conferences** (medical conferences {
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
 * **MCP server:** lets Claude, ChatGPT and other AI assistants search CME conferences and look up state CE requirements
 * **Updated:** regularly. Last build {{generated}}
-* **License:** data CC BY 4.0 (credit "MedCE Hub" with a link), code MIT
+* **License:** data CC BY 4.0 (credit "MedCE Hub" with a link, see [LICENSE-DATA.md](LICENSE-DATA.md)), code MIT ([LICENSE](LICENSE))
 
 ## What is inside
 
