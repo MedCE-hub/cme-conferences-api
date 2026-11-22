@@ -1,6 +1,6 @@
 # CME Conferences API and MCP server
 
-Free, open data on **546 US CME conferences** (medical conferences 2026-11-19 to 2030-10-25) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
+Free, open data on **553 US CME conferences** (medical conferences 2026-11-19 to 2031-02-22) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
 
 * **API docs (Swagger / OpenAPI):** https://medce-hub.github.io/cme-conferences-api/
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
@@ -12,10 +12,10 @@ Free, open data on **546 US CME conferences** (medical conferences 2026-11-19 to
 
 | Data | Count | Endpoint |
 |---|---|---|
-| CME conferences and CE meetings | 546 | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
+| CME conferences and CE meetings | 553 | [`/v1/conferences.json`](https://medce-hub.github.io/cme-conferences-api/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
-| CE / CME requirements (state × profession) | 634 records, 52 US jurisdictions, 13 professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
-| Professions | 13 | [`/v1/professions.json`](https://medce-hub.github.io/cme-conferences-api/v1/professions.json) |
+| CE / CME requirements (state × profession) | 685 records, 52 US jurisdictions, 14 professions | [`/v1/requirements.json`](https://medce-hub.github.io/cme-conferences-api/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
+| Professions | 14 | [`/v1/professions.json`](https://medce-hub.github.io/cme-conferences-api/v1/professions.json) |
 | Specialties | 68 | [`/v1/specialties.json`](https://medce-hub.github.io/cme-conferences-api/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |
 
