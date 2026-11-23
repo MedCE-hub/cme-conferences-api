@@ -1,6 +1,6 @@
 {
   "name": "medcehub-cme-conferences-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server and free JSON:API for US CME conferences 2026 and 2027 and CE / CME requirements by state (MedCE Hub).",
   "type": "module",
   "bin": { "medcehub-cme-conferences-mcp": "src/server.js" },

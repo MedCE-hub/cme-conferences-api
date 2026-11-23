@@ -3,13 +3,13 @@
   "name": "io.github.MedCE-hub/cme-conferences-api",
   "title": "MedCE Hub: CME conferences",
   "description": "Search US CME conferences and look up CE / CME license renewal requirements by state.",
-  "websiteUrl": "https://medce-hub.github.io/cme-conferences-api/",
+  "websiteUrl": "https://medcehub.com/",
   "repository": { "url": "https://github.com/MedCE-hub/cme-conferences-api", "source": "github" },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "oci",
-      "identifier": "ghcr.io/medce-hub/cme-conferences-api:1.0.0",
+      "identifier": "ghcr.io/medce-hub/cme-conferences-api:1.0.1",
       "transport": { "type": "stdio" }
     }
   ]

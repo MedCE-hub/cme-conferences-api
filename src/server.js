@@ -33,7 +33,7 @@ function brief(c) {
   };
 }
 
-const server = new McpServer({ name: "medcehub-cme-conferences", version: "1.0.0" });
+const server = new McpServer({ name: "medcehub-cme-conferences", version: "1.0.1" });
 
 server.registerTool(
   "search_conferences",
