@@ -1,5 +1,7 @@
 # CME Conferences API and MCP server
 
+[![MedCE Hub CME conferences MCP server](https://glama.ai/mcp/servers/MedCE-hub/cme-conferences-api/badges/score.svg)](https://glama.ai/mcp/servers/MedCE-hub/cme-conferences-api)
+
 Free, open data on **571 US CME conferences** (medical conferences 2026-11-27 to 2031-02-22) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
 
 * **API docs (Swagger / OpenAPI):** https://medce-hub.github.io/cme-conferences-api/
