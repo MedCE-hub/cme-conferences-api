@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "medcehub": {
+      "command": "npx",
+      "args": ["-y", "github:MedCE-hub/cme-conferences-api"]
+    }
+  }
+}
