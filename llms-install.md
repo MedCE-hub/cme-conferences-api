@@ -19,6 +19,6 @@ This server needs no API key, no environment variables and no build step. It run
 
 ## Notes
 
-- Transport: stdio. Read-only: the server only sends HTTPS GET requests to https://medce-hub.github.io/cme-conferences-api/v1/.
+- Transport: stdio. Read-only: the server only sends HTTPS GET requests to https://api.medcehub.com/v1/.
 - Optional environment variable `MEDCEHUB_API_BASE` overrides the data URL; leave it unset.
 - Docker alternative: `docker run -i --rm ghcr.io/medce-hub/cme-conferences-api`.
