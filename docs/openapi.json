@@ -9,7 +9,7 @@
     "license": { "name": "CC BY 4.0 (data)", "identifier": "CC-BY-4.0" }
   },
   "externalDocs": { "description": "MedCE Hub: CME conferences directory", "url": "https://medcehub.com" },
-  "servers": [ { "url": "https://medce-hub.github.io/cme-conferences-api/v1", "description": "Static JSON:API (GitHub Pages)" } ],
+  "servers": [ { "url": "https://api.medcehub.com/v1", "description": "Static JSON:API (GitHub Pages)" } ],
   "tags": [
     { "name": "Conferences", "description": "CME conferences, medical conferences and CE meetings in the US." },
     { "name": "Requirements", "description": "CME and CE requirements for license renewal by state and profession." },
