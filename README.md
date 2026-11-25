@@ -2,7 +2,7 @@
 
 [![MedCE Hub CME conferences MCP server](https://glama.ai/mcp/servers/MedCE-hub/cme-conferences-api/badges/score.svg)](https://glama.ai/mcp/servers/MedCE-hub/cme-conferences-api)
 
-Free, open data on **571 US CME conferences** (medical conferences 2026-11-27 to 2031-02-22) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
+Free, open data on **637 US CME conferences** (medical conferences 2026-11-27 to 2031-02-22) and **CE / CME requirements by state**, from [MedCE Hub](https://medcehub.com), the directory of continuing medical education conferences in the United States.
 
 * **API docs (Swagger / OpenAPI):** https://api.medcehub.com/
 * **Format:** [JSON:API 1.1](https://jsonapi.org/), static files, no API key
@@ -14,9 +14,9 @@ Free, open data on **571 US CME conferences** (medical conferences 2026-11-27 to
 
 | Data | Count | Endpoint |
 |---|---|---|
-| CME conferences and CE meetings | 571 | [`/v1/conferences.json`](https://api.medcehub.com/v1/conferences.json) |
+| CME conferences and CE meetings | 637 | [`/v1/conferences.json`](https://api.medcehub.com/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
-| CE / CME requirements (state × profession) | 840 records (1030 rules by license type), 52 US jurisdictions, 17 professions | [`/v1/requirements.json`](https://api.medcehub.com/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
+| CE / CME requirements (state × profession) | 884 records (1077 rules by license type), 52 US jurisdictions, 17 professions | [`/v1/requirements.json`](https://api.medcehub.com/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
 | Professions | 17 | [`/v1/professions.json`](https://api.medcehub.com/v1/professions.json) |
 | Specialties | 68 | [`/v1/specialties.json`](https://api.medcehub.com/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |
