@@ -16,8 +16,8 @@ Free, open data on **571 US CME conferences** (medical conferences 2026-11-27 to
 |---|---|---|
 | CME conferences and CE meetings | 571 | [`/v1/conferences.json`](https://api.medcehub.com/v1/conferences.json) |
 | One conference | | `/v1/conferences/{id}.json` |
-| CE / CME requirements (state × profession) | 685 records (803 rules by license type), 52 US jurisdictions, 14 professions | [`/v1/requirements.json`](https://api.medcehub.com/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
-| Professions | 14 | [`/v1/professions.json`](https://api.medcehub.com/v1/professions.json) |
+| CE / CME requirements (state × profession) | 839 records (1029 rules by license type), 52 US jurisdictions, 17 professions | [`/v1/requirements.json`](https://api.medcehub.com/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
+| Professions | 17 | [`/v1/professions.json`](https://api.medcehub.com/v1/professions.json) |
 | Specialties | 68 | [`/v1/specialties.json`](https://api.medcehub.com/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |
 
