@@ -18,7 +18,7 @@ Free, open data on **659 US CME conferences** (medical conferences 2026-11-27 to
 | One conference | | `/v1/conferences/{id}.json` |
 | CE / CME requirements (state × profession) | 884 records (1077 rules by license type), 52 US jurisdictions, 17 professions | [`/v1/requirements.json`](https://api.medcehub.com/v1/requirements.json), `/v1/requirements/{profession}/{state}.json` |
 | Professions | 17 | [`/v1/professions.json`](https://api.medcehub.com/v1/professions.json) |
-| Specialties | 68 | [`/v1/specialties.json`](https://api.medcehub.com/v1/specialties.json) |
+| Specialties | 71 | [`/v1/specialties.json`](https://api.medcehub.com/v1/specialties.json) |
 | States, mandatory topics, credit types | | `/v1/states.json`, `/v1/topics.json`, `/v1/credit-types.json` |
 
 Conferences cover physicians (CME), nurse practitioners and physician assistants, nurses, pharmacists, dentists, psychologists, social workers, therapists and veterinarians. Every record has dates, city and state, format (in person, online, hybrid), CME cruises, CME / CE credits (AMA PRA Category 1, ANCC, AANP, ACPE, ADA CERP, RACE ...), price, organizer, official link and the date the facts were checked on the official page.
